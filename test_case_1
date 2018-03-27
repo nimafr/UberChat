@@ -1,0 +1,42 @@
+REQUUID
+NICK,Jon
+REQCHATROOM
+NAMECHATROOM,androids dungeon
+REQCHATROOMS
+CHANGECHATROOM,androids dungeon
+REQCHATROOM
+
+REQTEXT
+SENDTEXT,hello how are you
+REQTEXT
+SENDTEXT, today is sunday
+SENDTEXT, and the code almost works
+REQTEXT
+SENDTEXT, and I am happy
+REQTEXT
+REQCHATROOM
+CHANGECHATROOM,the lobby
+REQUUID
+REQCHATROOM
+
+REQTEXT
+REQUSERS
+q
+
+test stats
+b2804811,20171202T085926.743382,REQUUID,6457b844-34e2-4db7-8692-b12a286bc23b
+843b4bb3,20171202T085954.687404,NICK,bud_457b844-34e2-4db7-8692-b12a286bc23b
+63d1850f,20171202T090020.586491,REQCHATROOM,the lobby-4db7-8692-b12a286bc23b
+3441eb8b,20171202T090058.197062,SENDTEXT,17,the lobby-4db7-8692-b12a286bc23b
+885d44a0,20171202T090150.733015,SENDTEXT,17,the lobby-4db7-8692-b12a286bc23b
+22ab564b,20171202T090314.558295,SENDTEXT,87,the lobby-4db7-8692-b12a286bc23b
+fb034b02,20171202T090502.778974,REQTEXT,6457b844-34e2-4db7-8692-b12a286bc23b hello how are you;6457b844-34e2-4db7-8692-b12a286bc23b hello how are jon;6457b844-34e2-4db7-8692-b12a286bc23b hello no;b4cd265a-97b7-4dd5-8098-cfffee2b97ac hello how are too
+
+
+data_recv_ ( read_msg_.body() ); line 104 in cli
+28bc16d5-eab7-4f87-b9f9-e395488eb99e,bud_;c9bf9137-0596-4d24-882b-e40cb5078117,jon_
+   /*chat_message  msg = format_reply ( "GETNICK");
+            msg.encode_header();
+            c->write(msg);
+            cksum_ok = parse_command ( msg, &checksum, &time, &command, &payload );
+            std::string messageoutput = "["+ payload + "]: ";*/
